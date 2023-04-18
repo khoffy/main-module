@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: element-service
+  cloud:
+    config:
+      server:
+        uri: http://localhost:8888

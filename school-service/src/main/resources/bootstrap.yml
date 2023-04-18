@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: school-service
+  cloud:
+    config:
+      server:
+        uri: http://localhost:8888

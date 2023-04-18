@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: registration-service
+    description:
+
+  # data:
+  #   mongodb:
+  #     uri: "mongodb://localhost:27017"
+  #     database: school-service-db
+  #     host: localhost
+  #     port: 27017
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
